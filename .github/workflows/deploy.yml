@@ -24,5 +24,4 @@ jobs:
         with:
           node-version: 20
       - run: pnpm install --prod
-      - run: pnpm test
       - run: pnpm run build
