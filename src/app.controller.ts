@@ -5,7 +5,7 @@ export class AppController {
   @Get()
   healthCheck() {
     return {
-      status: 'especial polenta e droga aaaaaaaaaaaaa',
+      status: 'de copão na mão',
       timestamp: new Date().toISOString(),
     };
   }
